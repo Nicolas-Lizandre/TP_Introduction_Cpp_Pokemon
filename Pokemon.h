@@ -5,6 +5,7 @@
 #ifndef POKEMON_H
 #define POKEMON_H
 #include <vector>
+#include <string>
 class Pokemon {
 
     private :

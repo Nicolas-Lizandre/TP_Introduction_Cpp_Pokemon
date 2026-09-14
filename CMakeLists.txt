@@ -14,4 +14,9 @@ add_executable(Testcode main.cpp
         Pokeball.h
         Pokedex.h
         PokemonParty.h
-        States/Abstract_Pokemon_State.h)
+        States/Abstract_Pokemon_State.h
+        States/InShape.cpp
+        States/InShape.h
+        States/KO.h
+        States/KO.cpp
+        States/Abstract_BattleState.h)

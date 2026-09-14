@@ -2,14 +2,16 @@
 // Created by nicol on 14/09/2026.
 //
 
-#ifndef ABSTRACT_POKEMON_STATE_H
-#define ABSTRACT_POKEMON_STATE_H
-class Abstract_Pokemon_State {
+#ifndef ABSTRACT_POKEMONSTATE_H
+#define ABSTRACT_POKEMONSTATE_H
+
+#include "C:\Users\nicol\Documents\Repositoires Github\TP Introduction_C++_Pokemon\Pokemon.h"
+
+class Abstract_PokemonState {
     public:
-    virtual bool Is_Pokemon_Sendable();
-    virtual bool Has_pokemon_Alteration();
-    virtual Pokemon Alteration_Effects();
-
-
+    virtual ~Abstract_PokemonState() = default;
+    virtual bool Is_Pokemon_Sendable()=0;
+    virtual bool Has_pokemon_Alteration()=0;
+    virtual Pokemon * Alteration_Effects(Pokemon & pokemon)=0; //Le principe est que le Pokemon attaquant aura des propriétés spéciales
 };
-#endif //ABSTRACT_POKEMON_STATE_H
+#endif //ABSTRACT_POKEMONSTATE_H

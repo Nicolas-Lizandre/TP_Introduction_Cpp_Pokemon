@@ -1,0 +1,10 @@
+Cette partie se concentrera sur la mise en place d'un système combat tour par tour
+ayant les fonctionnalitées suivantes :
+- On commence par l'état -BuildingTeam-
+- Les 2 équipes choissisent un Pokemon en écrivant 6 noms et/ou Ids - Une option permet de les choisir aléatoirement
+- Les joueurs peuvent vérifier les Id/Nom/States des Pokemons avec "PokemonParty" à tout moment
+- Les joueurs peuvent vérifier les stats de leur Pokemon en lançant l'Id / nom correspondant à tout moment
+- Tout de suite après le combat démarre sans procès -Fight_isOn-
+- Chaque équipe au tour par tour attaque en appyuant sur entrée (je ne fais pas compliqué)
+- L'équipe déclarée gagnante dès que tous les Pokemons adversairses sont KO (combat sans fin)
+- On demande gentiment un -Continue- sinon on return
